@@ -2,7 +2,7 @@ def main():
   
   # Project-1-Team-Compression
 #This is team compression, this is what we did
-def main():
+
 
 #Open's the text file
 my_file = open "Code_File.txt"
