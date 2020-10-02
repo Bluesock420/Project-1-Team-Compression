@@ -141,14 +141,14 @@ def main():
     # For loop: Do everything inside. First, i = 0, then again for i = 1 until i = len(my_string)-1
     i = 0
     while i < len(my_string):
-        if my_string[i] = ""
-        val = findcode(my_string[i:i + 5])
-        print(i, " ", my_string[i:i + 5], " ", val)  # print each element and the value it corresponds to
-        i += 5
-        else: val = findcode(my_string[i:i + 6])
-        print(i, " ", my_string[i:i + 6], " ", val)  # print each element and the value it corresponds to
-        i += 6
-        cmy_ans = my_ans + val
+        if my_string[i]== "0" "1":
+          val = findcode(my_string[i:i + 5])
+          print(i, " ", my_string[i:i + 5], " ", val)  # print each element and the value it corresponds to
+          i += 5
+    else: val = findcode(my_string[i:i + 6])
+    print(i, " ", my_string[i:i + 6], " ", val)  # print each element and the value it corresponds to
+    i += 6
+    cmy_ans = my_ans + str(val)
 
 
 main()
