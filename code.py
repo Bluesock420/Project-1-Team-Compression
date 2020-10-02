@@ -84,6 +84,19 @@ for i in range(0,len(my_string)):
   val = findcode(my_string[i])
   print(i," " ,my)string[i]," ',val)
   
+# Code overview part 2
+my_ans = ""
+# For loop: Do everything inside. First, i = 0, then again for i = 1 until i = len(my_string)-1
+i = 0
+while i < len(my_string):
+        if my_string[i] = ""
+        val = findcode(my_string[i:i+5])
+        print(i, " ", my_string[i:i+5], " ", val) # print each element and the value it corresponds to
+        i += 5
+        else: val = findcode(my_string[i:i+6])
+        print(i, " ", my_string[i:i+6], " ", val) # print each element and the value it corresponds to
+        i += 6
+        cmy_ans = my_ans + val
 
 
 
